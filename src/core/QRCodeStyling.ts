@@ -126,11 +126,16 @@ export default class QRCodeStyling {
       return;
     }
 
-    qrcode.stringToBytes = qrcode.stringToBytesFuncs[this._options.qrOptions.byteModeStringEncoding || "default"];
-
-    this._qr = qrcode(this._options.qrOptions.typeNumber, this._options.qrOptions.errorCorrectionLevel);
-    this._qr.addData(this._options.data, this._options.qrOptions.mode || getMode(this._options.data));
-    this._qr.make();
+    const qrcodeModule = (qrcode as any).default || qrcode;
+    const encoding = this._options.qrOptions?.byteModeStringEncoding || "default";
+    if (qrcodeModule.stringToBytesFuncs && qrcodeModule.stringToBytesFuncs[encoding]) {
+      qrcodeModule.stringToBytes = qrcodeModule.stringToBytesFuncs[encoding];
+    } else if (qrcodeModule.stringToBytesFuncs && qrcodeModule.stringToBytesFuncs["default"]) {
+      qrcodeModule.stringToBytes = qrcodeModule.stringToBytesFuncs["default"];
+    }
+    this._qr = qrcodeModule(this._options.qrOptions.typeNumber, this._options.qrOptions.errorCorrectionLevel);
+    this._qr?.addData(this._options.data, this._options.qrOptions.mode || getMode(this._options.data));
+    this._qr?.make();
 
     if (this._options.type === drawTypes.canvas) {
       this._setupCanvas();
