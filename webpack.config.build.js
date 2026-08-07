@@ -24,6 +24,22 @@ module.exports = (env, argv) => {
         filename: "qr-code-styling.common.js",
         libraryTarget: "commonjs"
       }
+    },
+    {
+      ...config,
+      experiments: {
+        ...config.experiments,
+        outputModule: true
+      },
+      output: {
+        ...config.output,
+        filename: "qr-code-styling.mjs",
+        libraryTarget: undefined,
+        libraryExport: undefined,
+        library: {
+          type: "module"
+        }
+      }
     }
   ];
 };

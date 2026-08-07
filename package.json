@@ -7,8 +7,8 @@
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
-      "require": "./lib/qr-code-styling.js",
-      "import": "./lib/qr-code-styling.js",
+      "import": "./lib/qr-code-styling.mjs",
+      "require": "./lib/qr-code-styling.common.js",
       "default": "./lib/qr-code-styling.js"
     }
   },
