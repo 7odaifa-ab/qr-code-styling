@@ -1,27 +1,25 @@
-# QR Code Styling (Zakhm Edition)
+# QR Code Styling (@zakhm_sa/qr-code-styling)
 
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success)](https://github.com/7odaifa-ab/qr-code-styling)
 [![TypeScript](https://img.shields.io/badge/TypeScript-7.x-blue)](https://www.typescriptlang.org/)
 [![Zakhm](https://img.shields.io/badge/Made%20by-Zakhm-9cf)](https://zakhm.sa)
 
-> Modern JavaScript library for generating QR codes with logos, styling, and robust UTF-8 encoding support.
+> 🚀 **The active, modernized fork of the original `qr-code-styling` library.**
 
-This is the actively maintained, modernized fork of the original `qr-code-styling` library, tailored for better bundling and full UTF-8 encoding compatibility.
+Welcome to the **official Zakhm fork** of `qr-code-styling`. The original library was abandoned in 2019, leaving many modern development needs unmet. We have taken over maintenance to ensure this fantastic tool remains robust, secure, and ready for modern web stacks.
+
+### 🌟 Key Selling Points
+- **🛠️ Active Maintenance**: Regular dependency updates, bug fixes, and community support.
+- **⚡ Modernized Build System**: Full **ESM Support** (`.mjs`) out of the box, ensuring seamless compatibility with modern bundlers like Vite, Next.js, and Rollup.
+- **🌍 Native UTF-8 Support**: Say goodbye to character encoding issues. Full UTF-8 support is built-in for internationalization (Arabic, emojis, etc.).
+
+---
+
 ### Examples
 <p float="left">
 <img style="display:inline-block" src="https://raw.githubusercontent.com/kozakdenys/qr-code-styling/master/src/assets/facebook_example_new.png" width="240" />
 <img style="display:inline-block" src="https://raw.githubusercontent.com/kozakdenys/qr-code-styling/master/src/assets/qr_code_example.png" width="240" />
 <img style="display:inline-block" src="https://raw.githubusercontent.com/kozakdenys/qr-code-styling/master/src/assets/telegram_example_new.png" width="240" />
-</p>
-
-### Extensions
-
-If you would like to use additional stiles, you can connect extensions.
-#### [qr-border-plugin](https://www.npmjs.com/package/qr-border-plugin)
-
-<p float="left">
-<img style="display:inline-block" src="https://www.lefe.dev/_static/packages/qr-border-plugin-1.svg" width="240" />
-<img style="display:inline-block" src="https://www.lefe.dev/_static/packages/qr-border-plugin-2.svg" width="240" />
 </p>
 
 
