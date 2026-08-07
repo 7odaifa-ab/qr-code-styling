@@ -11,7 +11,7 @@ Welcome to the **official Zakhm fork** of `qr-code-styling`. The original librar
 ### 🌟 Key Selling Points
 - **🛠️ Active Maintenance**: Regular dependency updates, bug fixes, and community support.
 - **⚡ Modernized Build System**: Full **ESM Support** (`.mjs`) out of the box, ensuring seamless compatibility with modern bundlers like Vite, Next.js, and Rollup.
-- **🌍 Native UTF-8 Support**: Say goodbye to character encoding issues. Full UTF-8 support is built-in for internationalization (Arabic, emojis, etc.).
+- **🌍 Native UTF-8 Support**: Say goodbye to character encoding issues. This fork introduces full, natively-engineered UTF-8 encoding support into the core library to seamlessly handle internationalization (Arabic, emojis, etc.).
 
 ---
 
