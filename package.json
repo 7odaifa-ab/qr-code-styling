@@ -1,9 +1,17 @@
 {
-  "name": "qr-code-styling",
-  "version": "1.9.2",
+  "name": "@zakhm_sa/qr-code-styling",
+  "version": "2.0.0",
   "description": "Add a style and an image to your QR code",
   "main": "lib/qr-code-styling.js",
   "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "require": "./lib/qr-code-styling.js",
+      "import": "./lib/qr-code-styling.js",
+      "default": "./lib/qr-code-styling.js"
+    }
+  },
   "files": [
     "lib"
   ],
@@ -56,7 +64,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kozakdenys/qr-code-styling.git"
+    "url": "git+https://github.com/7odaifa-ab/qr-code-styling.git"
   },
   "keywords": [
     "qr",
@@ -74,12 +82,15 @@
     "logo",
     "design"
   ],
-  "author": "Denys Kozak <kozak.denys.dev@gmail.com>",
+  "author": "7odaifa-ab <hudaifa@zakhm.sa>",
+  "contributors": [
+    "Denys Kozak (original author)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kozakdenys/qr-code-styling/issues"
+    "url": "https://github.com/7odaifa-ab/qr-code-styling/issues"
   },
-  "homepage": "https://qr-code-styling.com",
+  "homepage": "https://github.com/7odaifa-ab/qr-code-styling#readme",
   "allowScripts": {
     "canvas": "true",
     "@swc/core": "true",

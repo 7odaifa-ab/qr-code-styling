@@ -1,11 +1,12 @@
-# QR Code Styling
-[![Version](https://img.shields.io/npm/v/qr-code-styling.svg)](https://www.npmjs.org/package/qr-code-styling)
+# QR Code Styling (Zakhm Edition)
 
-JavaScript library for generating QR codes with a logo and styling.
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-success)](https://github.com/7odaifa-ab/qr-code-styling)
+[![TypeScript](https://img.shields.io/badge/TypeScript-7.x-blue)](https://www.typescriptlang.org/)
+[![Zakhm](https://img.shields.io/badge/Made%20by-Zakhm-9cf)](https://zakhm.sa)
 
-Try it here https://qr-code-styling.com
+> Modern JavaScript library for generating QR codes with logos, styling, and robust UTF-8 encoding support.
 
-If you have issues / suggestions / notes / questions, please open an issue or contact me. Let's create a cool library together.
+This is the actively maintained, modernized fork of the original `qr-code-styling` library, tailored for better bundling and full UTF-8 encoding compatibility.
 ### Examples
 <p float="left">
 <img style="display:inline-block" src="https://raw.githubusercontent.com/kozakdenys/qr-code-styling/master/src/assets/facebook_example_new.png" width="240" />
@@ -349,4 +350,27 @@ qrCodeSvgWithBlobImage.getRawData("svg").then((buffer) => {
 
 ### License
 
-[MIT License](https://raw.githubusercontent.com/kozakdenys/qr-code-styling/master/LICENSE). Copyright (c) 2021 Denys Kozak
+[MIT License](https://raw.githubusercontent.com/7odaifa-ab/qr-code-styling/master/LICENSE). Copyright (c) 2021 Denys Kozak
+
+<div align="center">
+
+---
+
+<table>
+<tr>
+<td width="100" align="center">
+<img src="https://github.com/user-attachments/assets/9223eb9d-920c-4ae6-8fb5-8ab3883ee105" alt="Zakhm Logo" width="80" height="80" style="border-radius: 12px;">
+</td>
+<td>
+
+**[Zakhm](https://zakhm.sa)** — Empowering Islamic education through technology.
+
+We believe great tools should be accessible to all. Use this library freely, and consider contributing back to help the community grow.
+
+📄 Licensed under [MIT](./LICENSE)
+
+</td>
+</tr>
+</table>
+
+</div>
